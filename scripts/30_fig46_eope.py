@@ -50,7 +50,7 @@ san = json.loads(m.group(1))
 # GSE173193 从 phase0 的 full sanity（夜间报告数字）手动并入
 P0_GAINS = {"GATA2": 4.7, "NR2F2": 2.7, "KLF4": 2.0, "TEAD4": 1.9, "TFAP2C": 1.8,
             "GATA3": 0.5, "MSX2": 0.4, "HAND1": 1.1, "ELF5": 1.3, "DLX3": 0.8}
-TFS = ["GATA2", "NR2F2", "KLF4", "TEAD4", "TFAP2C", "ELF5", "HAND1", "GATA3"]
+TFS = ["GATA2", "NR2F2", "KLF4", "TEAD4", "TFAP2C", "ELF5", "HAND1", "GATA3", "MSX2", "DLX3"]
 dsets = [k for k in san if "B_lowexpr_TF_rescue" in san.get(k, {})]
 fig, ax = plt.subplots(figsize=(8.5, 4.6))
 rng = np.random.default_rng(1)

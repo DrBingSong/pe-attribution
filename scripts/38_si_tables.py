@@ -29,11 +29,16 @@ S6 = pd.DataFrame([
     ["Trophoblast", "EOPE", 0.096], ["Trophoblast", "severe", -0.006], ["Trophoblast", "LOPE", -0.159], ["Trophoblast", "mixed", 0.272],
 ], columns=["module", "subtype", "point_biserial_r"])
 
-S7 = pd.DataFrame([  # gain × (6 队列 phase1 + GSE173193=4.7/2.7/2.0/1.9/1.8/1.1/1.3/0.8 简表)
-    ["GATA2", 4.7, "6/6"], ["NR2F2", 2.7, "6/6"], ["KLF4", 2.0, "6/6"], ["TEAD4", 1.9, "6/6"],
-    ["TFAP2C", 1.8, "6/6"], ["ELF5", 1.5, "5/6"], ["HAND1", 1.1, "ns"], ["DLX3", 0.8, "ns"],
-    ["GATA3", 0.5, "ns"], ["MSX2", 0.4, "ns"],
-], columns=["TF", "typical_gain_x", "cohorts_rescued"])
+S7 = pd.DataFrame([  # 7 队列均值（GSE173193 来自 phase0，一位小数）；详见 Note
+    ["GATA2", 5.3, 7, 7], ["NR2F2", 4.6, 7, 7], ["KLF4", 1.6, 7, 5], ["TEAD4", 1.6, 7, 5],
+    ["TFAP2C", 1.6, 7, 6], ["ELF5", 1.4, 7, 3], ["HAND1", 1.3, 7, 2], ["GATA3", 0.8, 7, 1],
+    ["DLX3", 0.8, 1, 0], ["MSX2", 0.4, 1, 0],
+], columns=["TF", "mean_gain_x", "n_cohorts_measurable", "cohorts_with_gain_ge_1.5x"])
+S7_note = ("mean_gain_x = mean rescue factor across measurable cohorts (GSE173193 gains from the phase-0 "
+           "full-cohort run, one-decimal reporting). Rescue factor = (expression rank + 1) / (attribution rank + 1). "
+           "DLX3 and MSX2 were evaluable in GSE173193 only.")
+S7.loc[len(S7)] = [None, None, None, None]
+S7.loc[len(S7)] = ["Note", S7_note, None, None]
 
 sheets = {
     "S1_cohorts": S1,

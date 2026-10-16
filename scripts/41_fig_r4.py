@@ -204,7 +204,7 @@ def fig6():
     san = json.loads(re.search(r"SANITY-ALL-BEGIN\n(\{.*?\n\})\nSANITY-ALL-END", raw, re.S).group(1))
     P0 = {"GATA2": 4.7, "NR2F2": 2.7, "KLF4": 2.0, "TEAD4": 1.9, "TFAP2C": 1.8,
           "ELF5": 1.3, "HAND1": 1.1, "DLX3": 0.8, "GATA3": 0.5, "MSX2": 0.4}
-    TFS = ["GATA2", "NR2F2", "KLF4", "TEAD4", "TFAP2C", "ELF5", "HAND1", "GATA3"]
+    TFS = ["GATA2", "NR2F2", "KLF4", "TEAD4", "TFAP2C", "ELF5", "HAND1", "GATA3", "MSX2", "DLX3"]
     dsets = [k for k in san if "B_lowexpr_TF_rescue" in san.get(k, {})]
     n_total = len(dsets) + 1
     fig, ax = plt.subplots(figsize=(SNGL * 2 + 0.9, 3.3))
