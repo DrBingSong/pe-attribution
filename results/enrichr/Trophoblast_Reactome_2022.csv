@@ -1,0 +1,2 @@
+rank,term,pval,zscore,combined,overlap_genes,adj_pval,old_pval
+1,Dissolution Of Fibrin Clot R-HSA-75205,5.932115701720912e-05,226.9431818181818,2208.734624235031,"['ANXA2', 'S100A10']",0.006762611899961839,0

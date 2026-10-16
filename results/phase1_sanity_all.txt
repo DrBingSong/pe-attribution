@@ -1,0 +1,862 @@
+SANITY-ALL-BEGIN
+{
+ "GSE282038": {
+  "n_cells": 9305,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 2240,
+    "canon_att_rank": {
+     "KRT7": 12,
+     "CGA": 1947,
+     "CGB3": "not_in_atts",
+     "PEG10": 443,
+     "TFAP2C": 1089,
+     "GATA3": 677,
+     "KRT18": 6,
+     "HLA-G": 104
+    }
+   },
+   "immune": {
+    "n_cells": 2989,
+    "canon_att_rank": {
+     "PTPRC": 3,
+     "LYZ": 56,
+     "CD3D": 147,
+     "NKG7": 65,
+     "CD68": 339,
+     "CST3": 482
+    }
+   },
+   "endothelial": {
+    "n_cells": 161,
+    "canon_att_rank": {
+     "PECAM1": 4,
+     "CDH5": 20,
+     "VWF": 25,
+     "CLDN5": 24
+    }
+   },
+   "stromal": {
+    "n_cells": 230,
+    "canon_att_rank": {
+     "COL1A1": 4,
+     "DCN": 1,
+     "LUM": 12
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 3441,
+    "expr_rank": 5320,
+    "gain_x": 1.5
+   },
+   "GATA2": {
+    "att_rank": 552,
+    "expr_rank": 2449,
+    "gain_x": 4.4
+   },
+   "GATA3": {
+    "att_rank": 1548,
+    "expr_rank": 772,
+    "gain_x": 0.5
+   },
+   "TEAD4": {
+    "att_rank": 7794,
+    "expr_rank": 12708,
+    "gain_x": 1.6
+   },
+   "NR2F2": {
+    "att_rank": 1075,
+    "expr_rank": 3837,
+    "gain_x": 3.6
+   },
+   "HAND1": {
+    "att_rank": 15465,
+    "expr_rank": 19460,
+    "gain_x": 1.3
+   },
+   "KLF4": {
+    "att_rank": 412,
+    "expr_rank": 591,
+    "gain_x": 1.4
+   },
+   "ELF5": {
+    "att_rank": 17153,
+    "expr_rank": 22156,
+    "gain_x": 1.3
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "NA": 0.3409
+    },
+    "angiogenic_imbalance": {
+     "NA": 1.9352
+    },
+    "complement": {
+     "NA": 0.2386
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "NA": 1.6284
+    },
+    "angiogenic_imbalance": {
+     "NA": 0.4212
+    },
+    "complement": {
+     "NA": 0.2492
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "NA": 1.369
+    },
+    "angiogenic_imbalance": {
+     "NA": 0.991
+    },
+    "complement": {
+     "NA": 0.2726
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "NA": 0.4226
+    },
+    "angiogenic_imbalance": {
+     "NA": 0.3227
+    },
+    "complement": {
+     "NA": 0.0704
+    }
+   }
+  }
+ },
+ "GSE298119": {
+  "n_cells": 42248,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 9257,
+    "canon_att_rank": {
+     "KRT7": 5,
+     "CGA": 1877,
+     "CGB3": "not_in_atts",
+     "PEG10": 39,
+     "TFAP2C": 1451,
+     "GATA3": 151,
+     "KRT18": 6,
+     "HLA-G": 413
+    }
+   },
+   "immune": {
+    "n_cells": 15993,
+    "canon_att_rank": {
+     "PTPRC": 1,
+     "LYZ": 91,
+     "CD3D": 448,
+     "NKG7": 79,
+     "CD68": 180,
+     "CST3": 221
+    }
+   },
+   "endothelial": {
+    "n_cells": 1526,
+    "canon_att_rank": {
+     "PECAM1": 1,
+     "CDH5": 10,
+     "VWF": 28,
+     "CLDN5": 67
+    }
+   },
+   "stromal": {
+    "n_cells": 3476,
+    "canon_att_rank": {
+     "COL1A1": 7,
+     "DCN": 0,
+     "LUM": 1
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 3468,
+    "expr_rank": 5369,
+    "gain_x": 1.5
+   },
+   "GATA2": {
+    "att_rank": 695,
+    "expr_rank": 4174,
+    "gain_x": 6.0
+   },
+   "GATA3": {
+    "att_rank": 555,
+    "expr_rank": 885,
+    "gain_x": 1.6
+   },
+   "TEAD4": {
+    "att_rank": 7971,
+    "expr_rank": 12816,
+    "gain_x": 1.6
+   },
+   "NR2F2": {
+    "att_rank": 117,
+    "expr_rank": 1039,
+    "gain_x": 8.8
+   },
+   "HAND1": {
+    "att_rank": 17422,
+    "expr_rank": 28406,
+    "gain_x": 1.6
+   },
+   "KLF4": {
+    "att_rank": 494,
+    "expr_rank": 770,
+    "gain_x": 1.6
+   },
+   "ELF5": {
+    "att_rank": 9772,
+    "expr_rank": 14407,
+    "gain_x": 1.5
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "PE": 0.0995,
+     "control": 0.3335
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.9491,
+     "control": 0.8629
+    },
+    "complement": {
+     "PE": 0.4102,
+     "control": 0.4331
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "PE": 0.5488,
+     "control": 1.8246
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.2543,
+     "control": 0.2009
+    },
+    "complement": {
+     "PE": 1.1459,
+     "control": 0.7431
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "PE": 0.2457,
+     "control": 0.7837
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.5966,
+     "control": 0.6458
+    },
+    "complement": {
+     "PE": 0.9935,
+     "control": 1.2013
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "PE": 0.079,
+     "control": 0.2951
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.1925,
+     "control": 0.2462
+    },
+    "complement": {
+     "PE": 0.3607,
+     "control": 0.1988
+    }
+   }
+  }
+ },
+ "GSE298602": {
+  "n_cells": 58923,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 15814,
+    "canon_att_rank": {
+     "KRT7": 4,
+     "CGA": 2541,
+     "CGB3": "not_in_atts",
+     "PEG10": 107,
+     "TFAP2C": 753,
+     "GATA3": 388,
+     "KRT18": 0,
+     "HLA-G": 743
+    }
+   },
+   "immune": {
+    "n_cells": 16826,
+    "canon_att_rank": {
+     "PTPRC": 2,
+     "LYZ": 54,
+     "CD3D": 79,
+     "NKG7": 50,
+     "CD68": 63,
+     "CST3": 229
+    }
+   },
+   "endothelial": {
+    "n_cells": 3363,
+    "canon_att_rank": {
+     "PECAM1": 9,
+     "CDH5": 18,
+     "VWF": 17,
+     "CLDN5": 1
+    }
+   },
+   "stromal": {
+    "n_cells": 9334,
+    "canon_att_rank": {
+     "COL1A1": 7,
+     "DCN": 0,
+     "LUM": 3
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 2643,
+    "expr_rank": 3961,
+    "gain_x": 1.5
+   },
+   "GATA2": {
+    "att_rank": 940,
+    "expr_rank": 4551,
+    "gain_x": 4.8
+   },
+   "GATA3": {
+    "att_rank": 1463,
+    "expr_rank": 1128,
+    "gain_x": 0.8
+   },
+   "TEAD4": {
+    "att_rank": 6385,
+    "expr_rank": 10793,
+    "gain_x": 1.7
+   },
+   "NR2F2": {
+    "att_rank": 177,
+    "expr_rank": 1117,
+    "gain_x": 6.3
+   },
+   "HAND1": {
+    "att_rank": 13426,
+    "expr_rank": 17028,
+    "gain_x": 1.3
+   },
+   "KLF4": {
+    "att_rank": 633,
+    "expr_rank": 1054,
+    "gain_x": 1.7
+   },
+   "ELF5": {
+    "att_rank": 13132,
+    "expr_rank": 15138,
+    "gain_x": 1.2
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "PE": 0.1618,
+     "control": 0.1181,
+     "ghtn": 0.0672
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.8686,
+     "control": 0.9749,
+     "ghtn": 1.6061
+    },
+    "complement": {
+     "PE": 0.2837,
+     "control": 0.3755,
+     "ghtn": 0.2188
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "PE": 2.3409,
+     "control": 0.8323,
+     "ghtn": 0.6661
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.1539,
+     "control": 0.1563,
+     "ghtn": 0.1747
+    },
+    "complement": {
+     "PE": 1.1589,
+     "control": 1.7919,
+     "ghtn": 1.4682
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "PE": 0.4974,
+     "control": 0.1955,
+     "ghtn": 0.1595
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.7778,
+     "control": 0.7699,
+     "ghtn": 0.8079
+    },
+    "complement": {
+     "PE": 0.839,
+     "control": 1.0368,
+     "ghtn": 1.0532
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "PE": 0.1006,
+     "control": 0.0588,
+     "ghtn": 0.0239
+    },
+    "angiogenic_imbalance": {
+     "PE": 0.236,
+     "control": 0.1982,
+     "ghtn": 0.1916
+    },
+    "complement": {
+     "PE": 0.1883,
+     "control": 0.2162,
+     "ghtn": 0.1539
+    }
+   }
+  }
+ },
+ "GSE240922": {
+  "n_cells": 132823,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 18735,
+    "canon_att_rank": {
+     "KRT7": 11,
+     "CGA": 429,
+     "CGB3": "not_in_atts",
+     "PEG10": 1261,
+     "TFAP2C": 1881,
+     "GATA3": 807,
+     "KRT18": 10,
+     "HLA-G": 159
+    }
+   },
+   "immune": {
+    "n_cells": 40244,
+    "canon_att_rank": {
+     "PTPRC": 2,
+     "LYZ": 197,
+     "CD3D": 131,
+     "NKG7": 4,
+     "CD68": 240,
+     "CST3": 365
+    }
+   },
+   "endothelial": {
+    "n_cells": 1996,
+    "canon_att_rank": {
+     "PECAM1": 11,
+     "CDH5": 239,
+     "VWF": 268,
+     "CLDN5": 24
+    }
+   },
+   "stromal": {
+    "n_cells": 9526,
+    "canon_att_rank": {
+     "COL1A1": 1,
+     "DCN": 6,
+     "LUM": 8
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 7215,
+    "expr_rank": 9755,
+    "gain_x": 1.4
+   },
+   "GATA2": {
+    "att_rank": 1123,
+    "expr_rank": 4808,
+    "gain_x": 4.3
+   },
+   "GATA3": {
+    "att_rank": 2448,
+    "expr_rank": 1502,
+    "gain_x": 0.6
+   },
+   "TEAD4": {
+    "att_rank": 7797,
+    "expr_rank": 11281,
+    "gain_x": 1.4
+   },
+   "NR2F2": {
+    "att_rank": 710,
+    "expr_rank": 1637,
+    "gain_x": 2.3
+   },
+   "HAND1": {
+    "att_rank": 14953,
+    "expr_rank": 17346,
+    "gain_x": 1.2
+   },
+   "KLF4": {
+    "att_rank": 1307,
+    "expr_rank": 1083,
+    "gain_x": 0.8
+   },
+   "ELF5": {
+    "att_rank": 10469,
+    "expr_rank": 15556,
+    "gain_x": 1.5
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "reference_FT": 0.0744
+    },
+    "angiogenic_imbalance": {
+     "reference_FT": 0.9898
+    },
+    "complement": {
+     "reference_FT": 0.0881
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "reference_FT": 0.5183
+    },
+    "angiogenic_imbalance": {
+     "reference_FT": 0.07
+    },
+    "complement": {
+     "reference_FT": 0.5495
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "reference_FT": 0.9989
+    },
+    "angiogenic_imbalance": {
+     "reference_FT": 0.2955
+    },
+    "complement": {
+     "reference_FT": 1.3074
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "reference_FT": 0.0685
+    },
+    "angiogenic_imbalance": {
+     "reference_FT": 0.1903
+    },
+    "complement": {
+     "reference_FT": 0.1855
+    }
+   }
+  }
+ },
+ "GSE290578": {
+  "n_cells": 135209,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 25006,
+    "canon_att_rank": {
+     "KRT7": 8,
+     "CGA": 2875,
+     "CGB3": "not_in_atts",
+     "PEG10": 116,
+     "TFAP2C": 985,
+     "GATA3": 180,
+     "KRT18": 3,
+     "HLA-G": 673
+    }
+   },
+   "immune": {
+    "n_cells": 61138,
+    "canon_att_rank": {
+     "PTPRC": 1,
+     "LYZ": 75,
+     "CD3D": 52,
+     "NKG7": 13,
+     "CD68": 88,
+     "CST3": 296
+    }
+   },
+   "endothelial": {
+    "n_cells": 4813,
+    "canon_att_rank": {
+     "PECAM1": 1,
+     "CDH5": 14,
+     "VWF": 20,
+     "CLDN5": 21
+    }
+   },
+   "stromal": {
+    "n_cells": 9391,
+    "canon_att_rank": {
+     "COL1A1": 7,
+     "DCN": 0,
+     "LUM": 4
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 3955,
+    "expr_rank": 6228,
+    "gain_x": 1.6
+   },
+   "GATA2": {
+    "att_rank": 671,
+    "expr_rank": 3822,
+    "gain_x": 5.7
+   },
+   "GATA3": {
+    "att_rank": 1006,
+    "expr_rank": 860,
+    "gain_x": 0.9
+   },
+   "TEAD4": {
+    "att_rank": 8988,
+    "expr_rank": 12088,
+    "gain_x": 1.3
+   },
+   "NR2F2": {
+    "att_rank": 698,
+    "expr_rank": 3192,
+    "gain_x": 4.6
+   },
+   "HAND1": {
+    "att_rank": 5124,
+    "expr_rank": 8146,
+    "gain_x": 1.6
+   },
+   "KLF4": {
+    "att_rank": 227,
+    "expr_rank": 355,
+    "gain_x": 1.6
+   },
+   "ELF5": {
+    "att_rank": 12117,
+    "expr_rank": 14546,
+    "gain_x": 1.2
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "PE_preterm": 0.3381,
+     "control": 0.1478
+    },
+    "angiogenic_imbalance": {
+     "PE_preterm": 1.6715,
+     "control": 0.9852
+    },
+    "complement": {
+     "PE_preterm": 0.9065,
+     "control": 0.2532
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "PE_preterm": 1.1787,
+     "control": 0.8695
+    },
+    "angiogenic_imbalance": {
+     "PE_preterm": 0.3033,
+     "control": 0.1521
+    },
+    "complement": {
+     "PE_preterm": 1.401,
+     "control": 0.801
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "PE_preterm": 0.7991,
+     "control": 0.7212
+    },
+    "angiogenic_imbalance": {
+     "PE_preterm": 0.8045,
+     "control": 0.4949
+    },
+    "complement": {
+     "PE_preterm": 1.8353,
+     "control": 1.1971
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "PE_preterm": 0.2475,
+     "control": 0.1569
+    },
+    "angiogenic_imbalance": {
+     "PE_preterm": 0.3634,
+     "control": 0.2603
+    },
+    "complement": {
+     "PE_preterm": 0.4938,
+     "control": 0.2573
+    }
+   }
+  }
+ },
+ "GSE329173": {
+  "n_cells": 33861,
+  "n_genes": 28231,
+  "A_marker_attribution_rank": {
+   "trophoblast": {
+    "n_cells": 9984,
+    "canon_att_rank": {
+     "KRT7": 10,
+     "CGA": 2442,
+     "CGB3": "not_in_atts",
+     "PEG10": 94,
+     "TFAP2C": 1053,
+     "GATA3": 250,
+     "KRT18": 4,
+     "HLA-G": 111
+    }
+   },
+   "immune": {
+    "n_cells": 7725,
+    "canon_att_rank": {
+     "PTPRC": 0,
+     "LYZ": 31,
+     "CD3D": 58,
+     "NKG7": 11,
+     "CD68": 159,
+     "CST3": 224
+    }
+   },
+   "endothelial": {
+    "n_cells": 397,
+    "canon_att_rank": {
+     "PECAM1": 6,
+     "CDH5": 70,
+     "VWF": 19,
+     "CLDN5": 47
+    }
+   },
+   "stromal": {
+    "n_cells": 871,
+    "canon_att_rank": {
+     "COL1A1": 4,
+     "DCN": 0,
+     "LUM": 11
+    }
+   }
+  },
+  "B_lowexpr_TF_rescue": {
+   "TFAP2C": {
+    "att_rank": 2520,
+    "expr_rank": 4409,
+    "gain_x": 1.7
+   },
+   "GATA2": {
+    "att_rank": 431,
+    "expr_rank": 3241,
+    "gain_x": 7.5
+   },
+   "GATA3": {
+    "att_rank": 673,
+    "expr_rank": 628,
+    "gain_x": 0.9
+   },
+   "TEAD4": {
+    "att_rank": 5803,
+    "expr_rank": 10396,
+    "gain_x": 1.8
+   },
+   "NR2F2": {
+    "att_rank": 729,
+    "expr_rank": 3079,
+    "gain_x": 4.2
+   },
+   "HAND1": {
+    "att_rank": 14870,
+    "expr_rank": 17008,
+    "gain_x": 1.1
+   },
+   "KLF4": {
+    "att_rank": 618,
+    "expr_rank": 1362,
+    "gain_x": 2.2
+   },
+   "ELF5": {
+    "att_rank": 7063,
+    "expr_rank": 11986,
+    "gain_x": 1.7
+   }
+  },
+  "C_within_type_group_preview": {
+   "trophoblast": {
+    "inflammatory": {
+     "severe_PE": 0.2272
+    },
+    "angiogenic_imbalance": {
+     "severe_PE": 1.4661
+    },
+    "complement": {
+     "severe_PE": 1.0057
+    }
+   },
+   "immune": {
+    "inflammatory": {
+     "severe_PE": 0.7151
+    },
+    "angiogenic_imbalance": {
+     "severe_PE": 0.2962
+    },
+    "complement": {
+     "severe_PE": 1.1271
+    }
+   },
+   "endothelial": {
+    "inflammatory": {
+     "severe_PE": 0.7195
+    },
+    "angiogenic_imbalance": {
+     "severe_PE": 0.7435
+    },
+    "complement": {
+     "severe_PE": 2.073
+    }
+   },
+   "stromal": {
+    "inflammatory": {
+     "severe_PE": 0.1419
+    },
+    "angiogenic_imbalance": {
+     "severe_PE": 0.2839
+    },
+    "complement": {
+     "severe_PE": 0.3563
+    }
+   }
+  }
+ }
+}
+SANITY-ALL-END

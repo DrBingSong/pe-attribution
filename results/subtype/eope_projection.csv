@@ -1,0 +1,4 @@
+dataset,subtype,n_cells,PEup_z,PEdown_z
+GSE282038,EOPE,9305,0.269,1.242
+GSE329173,severe_PE,33861,0.534,1.61
+GSE240922,reference_FT,132823,0.355,0.58

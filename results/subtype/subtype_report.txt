@@ -1,0 +1,22 @@
+GSE173193[Immune] PE 5718 / CT 7163 细胞（归因门控）
+GSE173193[Trophoblast] PE 8286 / CT 3594 细胞（归因门控）
+GSE298119[Immune] PE 13187 / CT 8409 细胞（归因门控）
+GSE298119[Trophoblast] PE 13925 / CT 3576 细胞（归因门控）
+GSE298602[Immune] PE 8217 / CT 8076 细胞（归因门控）
+GSE298602[Trophoblast] PE 11760 / CT 9538 细胞（归因门控）
+GSE290578[Immune] PE 25098 / CT 19809 细胞（归因门控）
+GSE290578[Trophoblast] PE 35720 / CT 26829 细胞（归因门控）
+
+== A. 与共识模块的相关（点二列）==
+  免疫 | EOPE     vs 共识: r=0.249
+  免疫 | LOPE     vs 共识: r=-0.306
+  免疫 | mixed    vs 共识: r=-0.320
+  免疫 | severe   vs 共识: r=0.209
+  滋养层 | EOPE     vs 共识: r=0.096
+  滋养层 | LOPE     vs 共识: r=-0.159
+  滋养层 | mixed    vs 共识: r=0.272
+  滋养层 | severe   vs 共识: r=-0.006
+
+== B. 免疫签名 EOPE−LOPE 差异 top15 ==
+  PRG2(+67.71), TYROBP(+53.52), SRGN(+44.61), SLC11A1(+41.16), DCN(-38.24), FCER1G(+35.44), OLR1(+32.57), C5AR1(+32.37), IFI30(+31.81), AIF1(+30.88), LST1(+30.50), EREG(+29.03), LUM(-28.30), PLAUR(+27.91), LYZ(+26.85)
+  方向一致率: 33.4%

@@ -1,0 +1,2 @@
+rank,term,pval,zscore,combined,overlap_genes,adj_pval,old_pval
+1,Natural killer cell mediated cytotoxicity,3.186552229157929e-05,66.50223214285714,688.5631764907918,"['FCER1G', 'TYROBP', 'HLA-B']",0.0016251416368705438,0

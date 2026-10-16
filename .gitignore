@@ -1,0 +1,9 @@
+# Large binary inputs are re-downloadable from GEO, not tracked
+data/
+*.h5
+*.h5ad
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
