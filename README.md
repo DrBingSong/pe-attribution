@@ -1,5 +1,7 @@
 # pe-attribution
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23412926.svg)](https://doi.org/10.5281/zenodo.23412926)
+
 Reproducibility package for:
 
 > **Attribution scores from single-cell foundation models reveal reproducible, subtype-specific preeclampsia programs across cohorts**
