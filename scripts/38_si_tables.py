@@ -17,6 +17,10 @@ S1 = pd.DataFrame([
     ["GSE329173", "placenta", "severe eclampsia 3", 33861, "profile"],
     ["GSE240922", "decidua+villi 7-10w", "reference 30", 132823, "reference"],
 ], columns=["GSE", "tissue", "groups", "QC_cells", "role"])
+NOTE_S1 = ("Note: * for GSE290578 marks two additional deposited samples (GSM8817230/31) excluded "
+           "because the barcode files supplied are one line short of the corresponding count matrices "
+           "(integrity check); QC cell counts reflect the 14 retained samples.")
+S1.loc[len(S1) + 1] = [NOTE_S1, None, None, None, None]
 # *two author-corrupt samples excluded
 
 S8 = pd.DataFrame([
@@ -50,9 +54,11 @@ sheets = {
     "S7_TF_rescue": S7,
     "S8_bulk": S8,
     "S9_scf_sens": pd.read_csv(R / "sensitivity" / "scf_immune_sig.csv"),
+    "S10_LOO_stability": pd.read_csv(R / "headtohead" / "loo_stability.csv"),
 }
 with pd.ExcelWriter(OUT, engine="openpyxl") as w:
     for name, df in sheets.items():
+        df = df.drop(columns=["old_pval"], errors="ignore")
         df.to_excel(w, sheet_name=name[:31], index=False)
 print("SI_Tables.xlsx saved:", OUT)
 print("sheets:", list(sheets))
