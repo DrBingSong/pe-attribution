@@ -42,10 +42,10 @@ S7.loc[len(S7)] = ["Note", S7_note, None, None]
 
 sheets = {
     "S1_cohorts": S1,
-    "S3_headtohead": pd.read_csv(R / "headtohead" / "overlap_summary.csv"),
-    "S5_immune_enrichr": pd.read_csv(R / "enrichr" / "Immune_KEGG_2021_Human.csv"),
-    "S5b_immune_reactome": pd.read_csv(R / "enrichr" / "Immune_Reactome_2022.csv"),
-    "S5c_troph_GO": pd.read_csv(R / "enrichr" / "Trophoblast_GO_Biological_Process_2023.csv"),
+    "S2_headtohead": pd.read_csv(R / "headtohead" / "overlap_summary.csv"),
+    "S3_immune_enrichr": pd.read_csv(R / "enrichr" / "Immune_KEGG_2021_Human.csv"),
+    "S4_immune_reactome": pd.read_csv(R / "enrichr" / "Immune_Reactome_2022.csv"),
+    "S5_troph_GO": pd.read_csv(R / "enrichr" / "Trophoblast_GO_Biological_Process_2023.csv"),
     "S6_subtype": S6,
     "S7_TF_rescue": S7,
     "S8_bulk": S8,
